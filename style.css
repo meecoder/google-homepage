@@ -1,0 +1,110 @@
+* {
+    -moz-appearance: none;
+}
+/* Header styles */
+.topnavlink {
+    color: #5E4040;
+}
+.topnavlink,
+.signinbutton {
+    text-decoration: none;
+    margin: 3px;
+    right: 5px;
+    float: right;
+    display: inline-block;
+    list-style: none;
+    position: relative;
+}
+.topnavlink:hover {
+    text-decoration: underline;
+}
+.signinbutton {
+    background: #4583EB;
+    border-radius: 1.5px;
+    padding: 10px;
+    font-weight: 600;
+    color: white;
+    height: 10px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    top: -5px;
+    
+}
+.signintext {
+    display: inline;
+    position: relative;
+    top: -5px;
+    font-size: 13px;
+}
+.signinfix:hover {
+    text-decoration: none;
+}
+/* Logo and form styles */
+.logo,
+.searchbar {
+    position: absolute;
+}
+.logo {
+    height: 100px;
+    top: 20%;
+    right: 40%;
+}
+.searchbar {
+    right: 30%;
+    top: 33%;
+    border: 1px solid #D9D9D9;
+    height: 30px;
+    padding-left: 5px;
+    width: 550px;
+}
+.searchbar:hover {
+    border-color: #9E9E9E;
+}
+.searchbar:focus {
+    border-color: #4583EB;
+}
+button {
+    position: absolute;
+    border: 1px solid #D9D9D9;
+    right: 40.5%;
+    top: 38%;
+    background: #F4F4F4;
+    color: #444;
+    padding: 6px;
+    border-radius: 3px;
+}
+.searchButton {
+    right: 52%;
+}
+button:hover {
+    border-color: #D2D2D2;
+    color: black;
+    background-color: #F0F0F0;
+}
+/* Footer styles */
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: #F2F2F2;
+    border-top: 1px solid #DDD;
+    width: 99.35%;
+    height: 38px;
+}
+footer a {
+    position: relative;
+    top: 10px;
+    color: #666;
+    padding: 8px;
+    text-decoration: none;
+    font-size: 13px;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+.bottom-footer-right {
+    float: right;
+    top: 5px;
+}
+.end {
+    margin-right: 10px;
+}
